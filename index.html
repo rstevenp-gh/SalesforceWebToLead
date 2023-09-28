@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Contact Me</h1>
+
+      
+    <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" onsubmit="beforeSubmit()" method="POST">
+    
+        <input type=hidden name="oid" value="00DHp000001tGpW">
+        <input type=hidden name="retURL" value="http://">
+        <input type="hidden" name="Date_of_Birth__c" id="Date_of_Birth__c">
+                
+        <label for="first_name">First Name</label><input  required id="first_name" name="first_name" size="20" type="text" />
+        
+        <label for="last_name">Last Name</label><input  required id="last_name" name="last_name" size="20" type="text" />
+        
+        <label for="email">Email</label><input  required id="email" name="email" size="20" type="text" />
+
+        <!-- Date of Birth:<span class="dateInput dateOnlyInput"><input  id="00NHp00000aRjtp" name="00NHp00000aRjtp" size="12" type="text" /></span> <!-->
+
+        <label for="date-of-birth">Date of Birth</label><input required type="date" id="date-of-birth" />
+
+                      
+        <input type="submit" name="submit">
+    
+    </form>
+    
+
+</body>
+</html>
