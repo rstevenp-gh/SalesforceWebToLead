@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -39,4 +40,47 @@ form {
     margin-top: 15px;
     display: flex;
     justify-content: center;
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+label, input {
+    display: block;
+}
+
+label {
+    margin-top: 10px;
+
+}
+input {
+    width: 100%;
+
+}
+
+input[type="submit"] {
+    margin: 15px auto 0 auto;
+    width: 40%;
+}
+
+form {
+    min-width: 300px;
+    max-width: 500px;
+    margin: 15px auto;
+    border: 2px solid black;
+    padding: 15px;
+
+}
+
+.g-recaptcha {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+>>>>>>> 432413668b951a7c66099e5acc4ac3ad17e34860
 }
